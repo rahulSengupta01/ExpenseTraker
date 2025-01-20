@@ -1,0 +1,46 @@
+name: expense_trackerr
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.8.0
+  fl_chart: ^0.69.2
+  intl: ^0.20.0
+  flutter_colorpicker: ^1.1.0
+
+  firebase_core: ^3.8.1
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.7
+
+
+  expense_repository:
+    path: packages/expense_repository
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
